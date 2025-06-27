@@ -85,7 +85,6 @@ export function MobileSidebar() {
           >
             <Logo />
             <div className="flex flex-col gap-1">
-              {" "}
               {routes.map((route) => (
                 <Link key={route.href} href={route.href}
                     className={buttonVariants({
